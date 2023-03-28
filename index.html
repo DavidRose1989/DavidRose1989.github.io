@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>FullStack Developer</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width =device-width, initial-scale=1">
+    </head>
+    <body>
+        <section id="banner">
+            <div class="banner-text">
+                <h1>FullStack Developer</h1>
+                <p>"I live by the Code"</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Find out</a>
+                    <a href="#"><span></span>Read more</a>
+                </div>
+            </div>        
+        </section>
+
+        <div id="sideNav">
+            <nav>
+        <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">MEET ME</a></li>
+        </li>
+    </ul>
+    </nav>
+    </div>
+<div id="menuBtn">
+    <img src="menubutton.png" id="menu">
+</div>
+
+<!--Projects-->
+
+<section id="feature">
+<div class="title-text">
+<p>FEATURES</p>
+<h1>Projects</h1>
+</div>
+<div class="feature-box"></div>
+
+<div class="features-url">
+    <img src="GymAppPhoto.jpg"/>
+    <h2></h2>
+    <a href="https://github.com/DavidRose1989/GymAppASPNET">Gym Application</a>
+</div>
+</section>
+<section id="feature2">
+<div class="features-url2">
+    <img src="TacoParserPhoto.jpg"/>
+    <h3></h3>
+    <a href="https://github.com/DavidRose1989/TacoParser">Taco Parser</a>
+</div>
+</section>
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px"
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+        }
+    }
+</script>
+
+
+
+    </body>
+</html>
