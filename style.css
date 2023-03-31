@@ -25,6 +25,11 @@
     font-style: italic;
 }
 
+.banner-text p1{
+    font-size: 50px;
+    font-style: italic;
+}
+
 .banner-btn{
     margin: 70px auto 0;
 }
